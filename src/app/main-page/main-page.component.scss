@@ -1,0 +1,105 @@
+html {
+  font-family: sans-serif, "Times New Roman";
+}
+
+nav {
+  width: 100%;
+
+  padding: 30px 10px 10px 20px;
+}
+
+#mainImg {
+     border-radius: 25px;
+     padding-top: 2%;
+}
+
+.header-container {
+  margin-right: 6%;
+  margin-left: 2%;
+}
+
+#name {
+  font-size: 35px;
+  padding-left: 2rem;
+  margin-right: 1 rem;
+  font-family:  "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif;;
+}
+
+.display-image {
+  padding-top: 4%;
+  padding: 10px;
+  max-height: 19rem;
+  border-radius: 5 rem;
+  width: 240px;
+
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: 10%;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  position: static;
+}
+
+.nav-item a {
+  display: inline-block;
+  // text-decoration: dotted;
+  padding: 10px 15px;
+  color: #495057;
+  text-align: center;
+  font-size: 7.25 rem !important;
+}
+.nav-item:hover a {
+  color: lightsalmon;
+  // background-color: #495057;
+}
+
+.nav-links a{
+  font-size: large;
+}
+
+
+.main-container{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-elements{
+
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+.row a{
+    color: skyblue;
+    text-decoration: none;
+}
+
+.row p{
+    text-align: left;
+    margin-top: 2%;
+    font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 25%;
+    font-size: medium;
+}

@@ -1,0 +1,11 @@
+threadsafe: true
+runtime: python27
+skip_files:
+  - node_modules
+
+handlers:
+  - url: /
+    static_files: dist/web-domain-angular/index.html
+    upload: dist/web-domain-angular/index.html
+  - url: /
+    static_dir: dist/web-domain-angular
